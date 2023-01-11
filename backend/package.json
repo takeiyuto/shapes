@@ -1,6 +1,7 @@
 {
   "scripts": {
     "type": "typechain --target web3-v1 --out-dir types \"../blockchain/build/contracts/*.json\"",
+    "lint": "eslint --ext .ts .",
     "build": "tsc -p .",
     "serve": "node server.js"
   },
@@ -9,7 +10,10 @@
     "@typechain/web3-v1": "6.0.2",
     "@types/d3": "7.4.0",
     "@types/jsdom": "20.0.1",
+    "@typescript-eslint/eslint-plugin": "^5.48.1",
+    "@typescript-eslint/parser": "^5.48.1",
     "d3": "7.8.0",
+    "eslint": "^8.31.0",
     "ipfs-core": "0.17.0",
     "jsdom": "21.0.0",
     "typechain": "8.1.1",

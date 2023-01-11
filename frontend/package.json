@@ -1,13 +1,19 @@
 {
   "scripts": {
     "type": "typechain --target web3-v1 --out-dir src/types \"../blockchain/build/contracts/*.json\"",
+    "lint": "eslint --ext .ts,.js .",
     "build": "webpack --mode=production --node-env=production"
   },
   "devDependencies": {
     "@metamask/onboarding": "1.0.1",
     "@typechain/web3-v1": "6.0.2",
     "@types/d3": "7.4.0",
+    "@typescript-eslint/eslint-plugin": "^5.48.1",
+    "@typescript-eslint/parser": "^5.48.1",
     "bn.js": "5.2.1",
+    "eslint": "^8.31.0",
+    "eslint-plugin-html": "^7.1.0",
+    "eslint-plugin-vue": "^9.8.0",
     "html-webpack-plugin": "5.5.0",
     "http-server": "14.1.1",
     "ipfs-core": "0.17.0",
