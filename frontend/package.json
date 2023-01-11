@@ -1,0 +1,22 @@
+{
+  "scripts": {
+    "type": "typechain --target web3-v1 --out-dir src/types \"../blockchain/build/contracts/*.json\"",
+    "build": "webpack --mode=production --node-env=production"
+  },
+  "devDependencies": {
+    "@metamask/onboarding": "1.0.1",
+    "@typechain/web3-v1": "6.0.2",
+    "@types/d3": "7.4.0",
+    "bn.js": "5.2.1",
+    "html-webpack-plugin": "5.5.0",
+    "http-server": "14.1.1",
+    "ipfs-core": "0.17.0",
+    "ts-loader": "9.4.2",
+    "typechain": "8.1.1",
+    "typescript": "4.9.4",
+    "vue": "3.2.45",
+    "web3": "1.8.1",
+    "webpack": "5.75.0",
+    "webpack-cli": "5.0.1"
+  }
+}

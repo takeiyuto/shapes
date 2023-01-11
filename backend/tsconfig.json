@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2021",
+    "module": "ES2022",
+    "moduleResolution": "node",
+    "forceConsistentCasingInFileNames": true,
+    "strict": false,
+    "skipLibCheck": true,
+    "allowSyntheticDefaultImports": true
+  },
+  "files": [
+    "server.ts"
+  ]
+}
