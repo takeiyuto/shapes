@@ -1,0 +1,9 @@
+[submodule "backend"]
+	path = backend
+	url = https://github.com/takeiyuto/shapes-backend.git
+[submodule "frontend"]
+	path = frontend
+	url = https://github.com/takeiyuto/shapes-frontend.git
+[submodule "blockchain"]
+	path = blockchain
+	url = https://github.com/takeiyuto/shapes-contract.git
